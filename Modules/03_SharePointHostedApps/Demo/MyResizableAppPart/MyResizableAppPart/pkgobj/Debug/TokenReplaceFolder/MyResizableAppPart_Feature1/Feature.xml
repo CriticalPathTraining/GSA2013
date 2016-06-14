@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="a08f3b12-7b6d-4c37-a606-27c781e890a4" Scope="Web" Title="MyResizableAppPart Feature1" Version="1.0.0.0">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="88ee81d1-a765-43f8-9e9b-d8579af6df4d" Scope="Web" Title="MyResizableAppPart Feature1" Version="1.0.0.0">
   <ElementManifests>
     <ElementManifest Location="Pages\Elements.xml" />
     <ElementFile Location="Pages\Default.aspx" />

@@ -4,24 +4,24 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1AA4F64D-68D2-452F-9304-028E7B85A1ED}</ProjectGuid>
+    <ProjectGuid>{5DC8EEDE-AFFC-4100-B912-3D1B14249179}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyResizableAppPart</RootNamespace>
     <AssemblyName>MyResizableAppPart</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
-    <MinimumOfficeToolsVersion>14.6</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
     <ProjectMode>SharePointApp</ProjectMode>
-    <AppFeaturePartId>{a8f25b4c-6404-49ca-b6ee-55d047401a19}</AppFeaturePartId>
-    <WspPartId>{d1994873-ef94-4101-bc52-44be5e651435}</WspPartId>
-    <WorkflowPartId>{d3cb4ad0-1f7a-4305-80a5-b5e8ec5c3977}</WorkflowPartId>
-    <CspkgPartId>{2f34f29f-3b4a-4133-a792-b5abef780ee7}</CspkgPartId>
-    <SqlPackagePartId>{04c53e2c-3158-456c-8de0-dac71f0a0d7f}</SqlPackagePartId>
+    <AppFeaturePartId>{f818c28d-d9ea-4c76-ad69-1cb3874a16f0}</AppFeaturePartId>
+    <WspPartId>{1743ad58-155d-4e42-ab37-ba83db8ee5a4}</WspPartId>
+    <WorkflowPartId>{076f0f29-9691-464a-b09d-637bd2ce699f}</WorkflowPartId>
+    <CspkgPartId>{27ef3054-75e1-4872-b993-b3feebf0db39}</CspkgPartId>
+    <SqlPackagePartId>{e89ce1e3-9659-41c3-b5c1-d00b7c030d32}</SqlPackagePartId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,15 +44,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="DemoResizableAppPart\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{df383052-dc73-4adf-a42a-e86c7afc8051}</SharePointProjectItemId>
+      <SharePointProjectItemId>{027f0005-c41f-4fdc-874b-d4d38c4206c7}</SharePointProjectItemId>
     </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{bea68ab6-26ba-48fb-b0a2-91208fc919ad}</SharePointProjectItemId>
+      <SharePointProjectItemId>{e9b5d4f0-9ead-4edf-803b-40143b504bef}</SharePointProjectItemId>
     </None>
     <Content Include="DemoResizableAppPart\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="Pages\DemoResizableAppPart.aspx" />
     <Content Include="Pages\Elements.xml" />
@@ -61,7 +60,7 @@
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{04c53e2c-3158-456c-8de0-dac71f0a0d7f}</SharePointProjectItemId>
+      <SharePointProjectItemId>{e89ce1e3-9659-41c3-b5c1-d00b7c030d32}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\DemoResizableAppPart.js" />
     <Content Include="Scripts\Elements.xml" />
@@ -73,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{1b21044a-3fca-43d1-a954-c2ad35c9e0b2}</SharePointProjectItemId>
+      <SharePointProjectItemId>{0febcea3-3d22-43b3-8e26-4abbeee102e6}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
     <Content Include="Content\App.css" />
@@ -84,18 +83,18 @@
     </Content>
     <Content Include="Images\Elements.xml" />
     <None Include="Images\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{01cb59bf-64c9-4b86-aa3d-205685d62078}</SharePointProjectItemId>
+      <SharePointProjectItemId>{fc62adae-e44c-48a6-8159-0f003bb0d19d}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Package\Package.package">
-      <PackageId>{00227bc3-5817-412a-b64c-d889aa0f08c0}</PackageId>
+      <PackageId>{e68a5ab6-c163-4f6f-8520-927cdc0ef75e}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{a08f3b12-7b6d-4c37-a606-27c781e890a4}</FeatureId>
+      <FeatureId>{88ee81d1-a765-43f8-9e9b-d8579af6df4d}</FeatureId>
     </None>
     <None Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>

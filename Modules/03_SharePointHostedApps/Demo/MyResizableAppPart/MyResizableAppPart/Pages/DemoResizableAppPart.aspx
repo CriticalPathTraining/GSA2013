@@ -9,7 +9,6 @@
 <html>
 <head>
   <title></title>
-  <meta http-equiv="X-UA-Compatible" content="IE=10" />
   <script src="../Scripts/jquery-1.9.1.js"></script>
   <script src="../Scripts/DemoResizableAppPart.js"></script>
   <link href="../Content/App.css" rel="stylesheet" />
@@ -28,6 +27,5 @@
     <div id="customers" />
 
   </div>
-
 </body>
 </html>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SharePointSiteUrl>https://dev.wingtip.com/</SharePointSiteUrl>
+    <SharePointSiteUrl>http://intranet.wingtip.com/</SharePointSiteUrl>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
         <ProjectStore>
-          <AppInstanceId>1c81f6e5-31f0-4633-acd7-6d78b220bcc8</AppInstanceId>
-          <AppInstancePackageModifiedTime>2016-04-13T18:56:20.9621053Z</AppInstancePackageModifiedTime>
+          <AppInstancePackageModifiedTime>2016-06-14T13:37:47.2653653Z</AppInstancePackageModifiedTime>
+          <AppInstanceId>c9f551aa-60e3-45a0-b0a1-06a6cddb73ca</AppInstanceId>
         </ProjectStore>
       </FlavorProperties>
     </VisualStudio>
