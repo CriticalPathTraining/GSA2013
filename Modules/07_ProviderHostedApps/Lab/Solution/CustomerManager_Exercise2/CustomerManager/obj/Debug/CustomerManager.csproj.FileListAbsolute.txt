@@ -1,0 +1,4 @@
+C:\Student\Modules\ProviderHostedApps\Lab\Solution\CustomerManager\CustomerManager\bin\Debug\CustomerManager.dll.config
+C:\Student\Modules\ProviderHostedApps\Lab\Solution\CustomerManager\CustomerManager\bin\Debug\CustomerManager.pdb
+C:\Student\Modules\ProviderHostedApps\Lab\Solution\CustomerManager\CustomerManager\obj\Debug\CustomerManager.dll
+C:\Student\Modules\ProviderHostedApps\Lab\Solution\CustomerManager\CustomerManager\obj\Debug\CustomerManager.pdb
